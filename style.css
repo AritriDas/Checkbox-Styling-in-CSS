@@ -21,4 +21,16 @@ body {
 .checkboxes label {
   cursor: pointer;
 }
+
+.checkboxes label input[type="checkbox"] {
+  display: none;
+}
+
+.checkboxes label input[type="checkbox"] + .text-class:before {
+  content: "\f058";
+}
+
+.checkboxes label input[type="checkbox"]:checked + .text-class:before {
+  content: "\f111";
+}
 /*# sourceMappingURL=style.css.map */
