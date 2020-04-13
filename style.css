@@ -13,4 +13,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.checkboxes {
+  font-size: xx-large;
+}
+
+.checkboxes label {
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
